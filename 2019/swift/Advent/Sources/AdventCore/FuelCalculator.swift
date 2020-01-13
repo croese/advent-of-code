@@ -1,17 +1,11 @@
 //
-//  Days.swift
+//  FuelCalculator.swift
 //  Advent
 //
 //  Created by Christian Roese on 1/13/20.
 //
 
 import Foundation
-import Files
-
-public protocol Solver {
-    func solveA() -> String
-    func solveB() -> String
-}
 
 public class FuelCalculator: Solver {
     private let masses: [Int]
